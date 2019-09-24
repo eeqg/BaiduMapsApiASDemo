@@ -65,6 +65,7 @@
             android:label="@string/demo_name_basemap"
             android:screenOrientation="portrait" >
         </activity>
+        <activity android:name=".location.LocationActivity"/>
         <activity
             android:name="wpbaidumap.demo.map.MapFragmentDemo"
             android:configChanges="orientation|keyboardHidden|screenSize"
